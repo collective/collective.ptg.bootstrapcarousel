@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='collective.ptg.bootstrapcarousel',
       version=version,
-      description="",
+      description="Add Bootstraps Carousel to collective.plonetruegallery",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -26,6 +26,7 @@ setup(name='collective.ptg.bootstrapcarousel',
       install_requires=[
           'setuptools',
           'collective.js.bootstrap',
+          'collective.plonetruegallery',
       ],
       entry_points="""
       # -*- Entry points: -*-
