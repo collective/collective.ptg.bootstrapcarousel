@@ -1,8 +1,24 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
-    xmlns:five="http://namespaces.zope.org/five"
+    xmlns:browser="http://namespaces.zope.org/browser" 
+    xmlns:i18n="http://namespaces.zope.org/i18n" 
     i18n_domain="collective.ptg.bootstrapcarousel">
 
-  <five:registerPackage package="." initialize=".initialize" />
+    <adapter
+        for="collective.plonetruegallery.interfaces.IGallery"
+        provides=".IBootstrapcarouselDisplaySettings"
+        factory=".BootstrapcarouselSettings" />
+
+    <browser:page
+        for="collective.plonetruegallery.interfaces.IGallery"
+        name="galleryview-bootstrapcarousel"
+        class=".BootstrapcarouselDisplayType"
+        template="bootstrapcarousel.pt"
+        permission="zope2.View" />
+
+    <utility
+        component=".BootstrapcarouselDisplayType"
+        provides="collective.plonetruegallery.interfaces.IDisplayType"
+        name="galleryview-bootstrapcarousel" />
 
 </configure>
