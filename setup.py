@@ -25,7 +25,6 @@ setup(name='collective.ptg.bootstrapcarousel',
       zip_safe=False,
       install_requires=[
           'setuptools',
-          'collective.js.bootstrap',
           'collective.plonetruegallery',
       ],
       entry_points="""
