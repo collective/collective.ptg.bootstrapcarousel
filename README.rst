@@ -8,15 +8,3 @@ This add-on will only work with Plone >= 4.3  as Jquery 1.7 is not supported on 
 
 Bootstrap's carousel needs Jquery 1.7 or higher
 
-Install
-===============================
-
-To install just add the package name to your buildout's instance eggs list
-
-[instance]
-...
-eggs = 
-     ...
-     collective.ptg.bootstrapcarousel
-
-Enjoy!
