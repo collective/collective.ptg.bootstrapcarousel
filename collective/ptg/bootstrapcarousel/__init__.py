@@ -31,7 +31,7 @@ class BootstrapcarouselDisplayType(BaseDisplayType):
     def javascript(self):
         return u"""
     <script type="text/javascript"
-    src="%(portal_url)s/++resource++ptg.boostrapcarousel/bootstrap.min.js">
+    src="%(portal_url)s/++resource++ptg.bootstrapcarousel/bootstrap.min.js">
     </script>
     <script type="text/javascript">
     $(document).ready(function(){
