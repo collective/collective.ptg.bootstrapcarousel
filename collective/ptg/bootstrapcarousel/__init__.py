@@ -31,7 +31,7 @@ class BootstrapcarouselDisplayType(BaseDisplayType):
     def javascript(self):
         return u"""
     <script type="text/javascript"
-    src="%(portal_url)s/++resource++collective.js.bootstrap/js/bootstrap.min.js">
+    src="%(portal_url)s/++resource++ptg.boostrapcarousel/bootstrap.min.js">
     </script>
     <script type="text/javascript">
     $(document).ready(function(){
@@ -54,9 +54,7 @@ class BootstrapcarouselDisplayType(BaseDisplayType):
 
         return u"""
     <link rel="stylesheet" type="text/css"
-    href="%(portal_url)s/++resource++collective.js.bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css"
-    href="%(portal_url)s/++resource++collective.js.bootstrap/css/bootstrap-responsive.min.css" />
+    href="%(portal_url)s/++resource++ptg.bootstrapcarousel/bootstrap.min.css" />
     <style type="text/css">
     #bootstrapcarousel {
         width:%(width)s;
