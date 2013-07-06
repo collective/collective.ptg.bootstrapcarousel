@@ -13,8 +13,10 @@ Install
 
 To install just add the package name to your buildout's instance eggs list
 
-    [instance]
-    ...
-    eggs = 
-        ...
-        collective.ptg.bootstrapcarousel
+[instance]
+...
+eggs = 
+     ...
+     collective.ptg.bootstrapcarousel
+
+Enjoy!
