@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.0.1
+-------------------
+
+- Fixed spelling error [jsonmurphy]
+
+
 1.0
 -------------------
 
