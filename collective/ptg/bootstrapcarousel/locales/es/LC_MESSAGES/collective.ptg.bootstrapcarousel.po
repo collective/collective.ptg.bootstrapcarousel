@@ -1,0 +1,42 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# Diego Rubert, 2009.
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: collective.ptg.bootstrapcarousel\n"
+"POT-Creation-Date: 2018-08-18 09:40+0000\n"
+"PO-Revision-Date: 2018-08-31 18:02-0400\n"
+"Last-Translator: Leonardo J. Caballero G. <leonardocaballero@gmail.com>\n"
+"Language-Team: Spanish Team\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"Language-Code: es\n"
+"Language-Name: Español\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collective.ptg.bootstrapcarousel\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#. Default: "Boostrap Carousel"
+#: ./__init__.py:28
+msgid "label_bc_display_type"
+msgstr "Boostrap Carousel"
+
+#. Default: "Height of the carousel in pixels or percentage"
+#: ./__init__.py:16
+msgid "label_bc_height"
+msgstr "Alto del carrusel en pixels o porcentaje"
+
+#. Default: "The amount of time to delay between automatically cycling an item"
+#: ./__init__.py:20
+msgid "label_bc_interval"
+msgstr ""
+"La cantidad de tiempo para demorar entre ciclar automáticamente un elemento"
+
+#. Default: "Width of the carousel in pixels or percentage"
+#: ./__init__.py:12
+msgid "label_bc_width"
+msgstr "Ancho del carrusel en pixels o porcentaje"
