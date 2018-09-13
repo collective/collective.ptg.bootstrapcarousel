@@ -5,7 +5,7 @@ version = '1.0.2'
 
 setup(name='collective.ptg.bootstrapcarousel',
       version=version,
-      description="Add Bootstraps Carousel to collective.plonetruegallery",
+      description="Bootstraps Carousel Gallery Display Type extension for PloneTrueGallery package",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
